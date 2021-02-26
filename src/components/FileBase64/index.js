@@ -1,11 +1,5 @@
-export default _selector => {
-    let files = document.querySelector(_selector).files
-
-    if (files.length === undefined) {
-        files = [ files, ]
-    } else {
-        files = Object.values(files)
-    }
+export default _e => {
+    let files = Object.values(_e.target.files)
 
     let promises = []
     let base64 = []

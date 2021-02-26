@@ -1,13 +1,12 @@
 {
-  "name": "format-size-file",
-  "version": "1.0.0",
-  "description": "A Vue.js project",
-  "author": "Rafael A. R. Dias <contato@diasrafael.com.br>",
+  "name": "@desco/file-base-64",
+  "version": "1.1.1",
+  "author": "Rafael A. R. Dias <eu@diasrafael.com.br>",
   "repository": {
     "type": "git",
-    "url": "git+https://eudiasrafael@bitbucket.org/eudiasrafael/desc-file-base64.git"
+    "url": "git+https://github.com/desco-npm/file-base-64"
   },
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",

@@ -11,8 +11,8 @@ import fileBase64 from '@desco/file-base-64'
 export default {
     name: 'HelloWorld',
     methods: {
-        onChange () {
-            fileBase64('input[type=file]').then(_base64 => {
+        onChange (e) {
+            fileBase64(e).then(_base64 => {
                 console.log(_base64)
             })
         },

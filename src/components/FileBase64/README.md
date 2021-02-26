@@ -1,21 +1,34 @@
-# @desco/file-base64
+# @desco/file-base-64
 
-> Convert file(s) to base64
+Permite a conversão rápida de arquivos capturados via InputFile para base64
 
-## Install
+## Instalação
 
-``` bash
+```
 npm install --save @desco/file-base-64
 ```
 
-## Use
+## Uso
 
-``` js
-import formatSizeFile from '@desco/file-base-64'
+```
+<template>
+    <div>
+        <input type="file" @change="onChange" multiple>
+        <input type="file" @change="onChange">
+    </div>
+</template>
 
-// Pass the file field picker
-// Receive an array with base64 from each of the selected files
-fileBase64('input[type=file]').then(_base64 => {
-    console.log(_base64)
-})
+<script>
+import fileBase64 from '@desco/file-base-64'
+
+export default {
+    methods: {
+        onChange (e) {
+            fileBase64(e).then(_base64 => {
+                console.log(_base64)
+            })
+        },
+    },
+}
+</script>
 ```

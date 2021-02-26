@@ -1,21 +1,34 @@
-# format-size-file
+# @desco/file-base-64
 
-> A Vue.js project
+Permite a conversão rápida de arquivos capturados via InputFile para base64
 
-## Build Setup
+## Instalação
 
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
+```
+npm install --save @desco/file-base-64
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Uso
+
+```
+<template>
+    <div>
+        <input type="file" @change="onChange" multiple>
+        <input type="file" @change="onChange">
+    </div>
+</template>
+
+<script>
+import fileBase64 from '@desco/file-base-64'
+
+export default {
+    methods: {
+        onChange (e) {
+            fileBase64(e).then(_base64 => {
+                console.log(_base64)
+            })
+        },
+    },
+}
+</script>
+```
