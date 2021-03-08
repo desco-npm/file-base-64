@@ -1,6 +1,6 @@
 <div align="right">
-  <a href="README.US.md">
-    <img alt="Read in American English" src="https://img.shields.io/static/v1?label=&message=🇺🇸 Read in American English&color=red&style=for-the-badge" />
+  <a href="README.md">
+    <img alt="Ler em Portugês do Brasil" src="https://img.shields.io/static/v1?label=&message=🇧🇷 Ler em Português do Brasil&color=green&style=for-the-badge" />
   </a>
 </div>
 
@@ -9,48 +9,49 @@
     <td><img src="https://i.ibb.co/5xYBFZf/descofile-base-64.png"></td>
     <td>  
       <h1>@desco/file-base-64</h1>
-      Pacote NPM que permite a conversão rápida de arquivos capturados via InputFile para base64.
+      NPM package that allows quick conversion of files captured via InputFile to base64.
       <br /><br />
       <div align="center">
-        <img alt="Licença MIT" src="https://img.shields.io/static/v1?label=Licença&message=MIT&color=green&style=for-the-badge">
-        <img alt="Versão 1.1.1" src="https://img.shields.io/static/v1?label=Versão&message=1.1.1&color=blue&style=for-the-badge">
+        <img alt="MIT License" src="https://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge">
+        <img alt="Version 1.1.1" src="https://img.shields.io/static/v1?label=Version&message=1.1.1&color=blue&style=for-the-badge">
       </div>
       <h4 align="center"> 
-        🚀 Pronto para uso! 🚀
+        🚀 Ready to use! 🚀
       </h4>
     </td>
   </tr>
 </table>
 
-> <a href="https://github.com/desco-npm" target="_blank">Veja outros projetos NPM aqui.</a>
+> <a href="https://github.com/desco-npm" target="_blank">See other NPM projects here.</a>
 
-> <a href="https://github.com/descoifica" target="_blank">Veja outros projetos aqui.</a>
-
----
-
-## 📋 Tabela de conteúdos
-
-* [⚙️ Instalação](#Instalação)
-* [📦 Importação](#Importação)
-* [📚 Como Usar](#Como-Usar)
+> <a href="https://github.com/descoifica" target="_blank">See other projects here.</a>
 
 ---
 
-<a name="Instalação"></a>
+## 📋 Table of Contents
 
-## ⚙️ Instalação
+* [⚙️ Installation](#Installation)
+* [📦 Import](#Import)
+* [📚 How to use](#How-to-use)
+
+---
+
+<a name="Installation"></a>
+
+## ⚙️ Installation
 
 ```bash
 npm install --save @desco/file-base-64
 ```
 
-> Note que será necessário ter o **NPM** instalado para o comando funcionar.
+> Note that it will be necessary to have **NPM** installed for the command to work.
 
 ---
 
-<a name="Importação"></a>
+<a name="Import"></a>
 
-## 📦 Importação
+## 📦 Import
+
 
 ```js
 import fileBase64 from '@desco/file-base-64
@@ -58,9 +59,9 @@ import fileBase64 from '@desco/file-base-64
 
 ---
 
-<a name="Como-Usar"></a>
+<a name="How-To-Use"></a>
 
-## 📚 Como Usar
+## 📚 How to use
 
 ```html
 <template>
@@ -89,7 +90,7 @@ export default {
 
 ---
 
-## Autor
+## Author
 
 <table>
   <tr>

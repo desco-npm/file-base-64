@@ -14,8 +14,6 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "@desco/file-base-64": "^1.0.1",
-    "@desco/format-size-file": "^1.0.1",
     "vue": "^2.5.2"
   },
   "devDependencies": {
