@@ -1,6 +1,6 @@
 <div align="right">
   <a href="README.md">
-    <img alt="Ler em Portugês do Brasil" src="https://img.shields.io/static/v1?label=&message=🇧🇷 Ler em Português do Brasil&color=green&style=for-the-badge" />
+    <img alt="Ler em Portugês do Brasil" src="https://img.shields.io/static/v1?label=&message=Ler+em+Portugu%C3%AAs+do+Brasil&color=green&style=for-the-badge" />
   </a>
 </div>
 
@@ -30,9 +30,9 @@
 
 ## 📋 Table of Contents
 
-* [⚙️ Installation](#Installation)
-* [📦 Import](#Import)
-* [📚 How to use](#How-to-use)
+- [⚙️ Installation](#Installation)
+- [📦 Import](#Import)
+- [📚 How to use](#How-to-use)
 
 ---
 
@@ -52,9 +52,8 @@ npm install --save @desco/file-base-64
 
 ## 📦 Import
 
-
 ```js
-import fileBase64 from '@desco/file-base-64'
+import fileBase64 from "@desco/file-base-64";
 ```
 
 ---
@@ -65,10 +64,10 @@ import fileBase64 from '@desco/file-base-64'
 
 ```html
 <template>
-    <div>
-        <input type="file" @change="onChange" multiple>
-        <input type="file" @change="onChange">
-    </div>
+  <div>
+    <input type="file" @change="onChange" multiple />
+    <input type="file" @change="onChange" />
+  </div>
 </template>
 ```
 
@@ -109,10 +108,10 @@ export default {
         <img alt="Facebook @eudiasrafael" src="https://img.shields.io/static/v1?label=Facebook&message=@eudiasrafael&color=blue&logo=facebook&style=for-the-badge">
       </a>
       <a href="https://github.com/descodifica" target="_blank">
-        <img alt="GitHub Overview @descodifica" src="https://img.shields.io/static/v1?label=GitHub Overview&message=@descodifica&color=black&logo=github&style=for-the-badge">
+        <img alt="GitHub Overview @descodifica" src="https://img.shields.io/static/v1?label=GitHub+Overview&message=@descodifica&color=black&logo=github&style=for-the-badge">
       </a>
       <a href="https://github.com/desco-npm" target="_blank">
-        <img alt="GitHub NPM @desco-npm" src="https://img.shields.io/static/v1?label=GitHub NPM&message=@desco-npm&color=black&logo=github&style=for-the-badge">
+        <img alt="GitHub NPM @desco-npm" src="https://img.shields.io/static/v1?label=GitHub+NPM&message=@desco-npm&color=black&logo=github&style=for-the-badge">
       </a>
       <a href="https://www.npmjs.com/org/desco" target="_blank">
         <img alt="NPM @desco" src="https://img.shields.io/static/v1?label=NPM&message=@desco&color=red&logo=npm&style=for-the-badge">
